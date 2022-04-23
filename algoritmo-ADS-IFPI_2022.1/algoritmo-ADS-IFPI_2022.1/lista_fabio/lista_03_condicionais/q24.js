@@ -29,7 +29,7 @@ function main(){
     }
 
     if(delta < 0){
-        console.log('Não existem raízes reais, pois não existe raiz quadrade de número negativo')
+        console.log('Não existem raízes reais, pois não existe raiz quadrada de número negativo')
     }
 
     else{
