@@ -14,7 +14,9 @@ function main(){
     if (a != 0 && bhaskara_raiz_1 >= 0 && bhaskara_raiz_2 >= 0){
         console.log(`O valor da raiz 1 é: ${bhaskara_raiz_1}`)
         console.log(`O valor da raiz 2 é: ${bhaskara_raiz_2}`)
-        
+        console.log(delta)
+        console.log(bhaskara_raiz_1)
+        console.log(bhaskara_raiz_2)
     }
     if (a != 0 && bhaskara_raiz_1 < 0){
         console.log(`O valor da raiz 1 é: ${bhaskara_raiz_1.toFixed(2)}`)
@@ -26,7 +28,7 @@ function main(){
         console.log(`O valor da raiz 2 é: ${bhaskara_raiz_2.toFixed(2)}`)
     }
 
-    else if(delta < 0){
+    if(delta < 0){
         console.log('Não existem raízes reais, pois não existe raiz quadrade de número negativo')
     }
 
