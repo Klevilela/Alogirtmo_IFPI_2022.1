@@ -8,7 +8,7 @@ tamanho = len(frase)
 
 for i in frase:
     if tamanho < qtd_caracteres_min and tamanho > qtd_caracteres_max:
-        print('Frase de tamanho inferior a 8 ou superior a 180')
+        print('Frase de tamanho inferior a 80 ou superior a 180')
         frase = input('Digite a frase: ').split(' ')
     else:
         contador_de_palavras += 1
@@ -20,3 +20,5 @@ print(tamanho)
 
 #frase = le ciel est bleu
 #quantidade de palavras = 4
+
+# usei para qtd_min 10 e qtd_max: 30 para facilitar o teste da questão
